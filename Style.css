@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(10, 10, 10);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    /* background-color: rgba(255, 0, 43, 0.404); */
+    background-image:url(/Chap4/developer.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+nav ul li a {
+    color: darkorchid;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+nav ul :hover {
+    color: yellow;
+    transform: .4s;
+}
+
+
+.btn {
+    background-color: firebrick;
+    color:white;
+    text-decoration: none;
+    border: 2px;
+    border-color: greenyellow;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+
+span{
+    color: white;
+    margin-right: 10px;
+}
+
+.btn :hover{
+background-color: slateblue;
+color: chartreuse;
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: peru;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: bold;
+    color: mediumturquoise;
+    letter-spacing: 5px;
+    text-shadow: 0 0 3px #adf011;
+    text-transform: uppercase;
+
+}
+
+
+.picture{
+display: flex;
+margin-right: 80px;
+}
+
+
+.img-txt{
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    border-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
